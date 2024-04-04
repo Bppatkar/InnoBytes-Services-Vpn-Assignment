@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide {
+  margin: 0 10px;
+  border: 2px solid gray;
+  border-radius: 18px;
+}
+
+.slick-current {
+  border: 2px solid red;
+}
+
+.x-ch-18 {
+  width: 18ch;
+}
+
+.x-ch-60 {
+  width: 60ch;
+}
+
+.x-network {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.x-centerText {
+  text-align: center;
+}
+
+.x-boldText {
+  font-weight: bold;
+}
+
+.x-2xlText {
+  font-size: xx-large;
+}
+
+.x-w-75 {
+  width: 75vw;
+  overflow: hidden;
+}
+
+.x-center {
+  margin: auto;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.x-space-title {
+  margin: 15px auto 5px auto;
+}
+
+.x-space-desc {
+  margin: 5px 0 30px 0;
+}
